@@ -30,18 +30,71 @@
     --clr-white: #F5F5F5;
 }
 /**********************************/
+
 /* 1. Estilos gerais
 /**********************************/
+body{
+    background-color: var(--clr-white);
+    font-family: var(--ff-primary);
+}
 
+a,
+a:hover,
+a:active,
+a:link,
+a:visited{
+    text-decoration: none;
+    color: #000;
+}
+
+hr{
+    border: none;
+    background-color: var(--clr-pink-dark);
+    height: 2px;
+    width: 140px;
+    margin: 20px auto;
+}
 /**********************************/
+
 /* 2. Menu
 /**********************************/
+.menu-bg{
+    background-color: var(--clr-green-light);
+}
 
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 960px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+.menu__logo{
+    margin: 10px;
+}
+
+.nav__list{
+    display: flex;
+}
+
+.nav__link{
+    padding: 20px 10px;
+}
 /**********************************/
+
 /* 3. Header
 /**********************************/
-
+.intro{
+    font-weight: bold;
+    font-size: 3rem;
+    text-align: center;
+    margin: 0 auto;
+    padding: 25px 0;
+}
 /**********************************/
+
 /* 4. Quem somos
 /**********************************/
 
