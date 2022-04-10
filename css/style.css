@@ -54,6 +54,22 @@ hr{
     width: 140px;
     margin: 20px auto;
 }
+
+p{
+    line-height: 21.82px;
+    padding: 0 10px;
+}
+
+.section__titulo{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+img{
+    display: block;
+    max-width: 100%;
+}
 /**********************************/
 
 /* 2. Menu
@@ -97,10 +113,30 @@ hr{
 
 /* 4. Quem somos
 /**********************************/
+.somos{
+    max-width: 960px;
+    margin: 0 auto;
+}
 
+.somos-c{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.somos-c__texto{
+    flex: 6 1 160px; /* 1 - Flex grow (6x maior do q outros elementos; 2 - Flex shrink (Reduz tamanho para caber no flex container;
+    3 - Flex basis (Define o tamanho do elemento) */
+}
+
+.somos-c__img{
+    flex: 1 1 350px;
+}
 /**********************************/
+
 /* 5. Nossos cursos
 /**********************************/
+
 
 /**********************************/
 /* 6. Planos
