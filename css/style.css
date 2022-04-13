@@ -34,6 +34,10 @@
 
 /* 1. Estilos gerais
 /**********************************/
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--clr-white);
     font-family: var(--ff-primary);
@@ -377,3 +381,16 @@ img {
 
 /* 9. Footer
 /**********************************/
+.footer {
+    background-color: var(--clr-pink-light);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px calc((100% - 960px) / 2);
+}
+
+.footer__copyright,
+.footer__logo {
+    padding: 0 10px 0 10px;
+}
